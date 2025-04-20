@@ -74,4 +74,6 @@ gem 'image_processing', '~> 1.2'
 
 gem 'pry-rails'
 
-gem 'pg'
+group :production do
+  gem 'pg'
+end
